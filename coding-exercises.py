@@ -9,3 +9,11 @@ print("Day 1 - String Manipulation \n" + "String Concatenation is done with the 
 
 #Exercise-3 Using the len() and input() functions
 print(len(input("What is your name?")))
+
+#Exercise-4 Swapping two variables
+a = input("a: ")
+b = input("b: ")
+#Tuple to swap the variables
+a,b = b,a
+print("a: " + a)
+print("b: " + b)
