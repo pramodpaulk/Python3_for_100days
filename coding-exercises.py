@@ -13,7 +13,6 @@ print(len(input("What is your name?")))
 #Exercise-4 Swapping two variables
 a = input("a: ")
 b = input("b: ")
-#Tuple to swap the variables
-a,b = b,a
+a,b = b,a #Tuple to swap the variables
 print("a: " + a)
 print("b: " + b)
