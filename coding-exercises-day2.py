@@ -13,9 +13,6 @@ days_left = years_left * 365
 message = f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left."
 print(message)
 
-
-
-
 #BMI Calculator
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
