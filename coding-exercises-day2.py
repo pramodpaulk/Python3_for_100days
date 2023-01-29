@@ -4,6 +4,17 @@
 two_digit_number = input("Type a two digit number: ")
 print(int(two_digit_number[0]) + int(two_digit_number[1]))
 
+#Life in Weeks
+age = input("What is your current age? ")
+years_left = 90 - int(age)
+months_left = years_left * 12
+weeks_left = years_left * 52
+days_left = years_left * 365
+print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left.")
+
+
+
+
 #BMI Calculator
 height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
