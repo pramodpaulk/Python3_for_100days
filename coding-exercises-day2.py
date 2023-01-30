@@ -20,7 +20,8 @@ print(message1)
 
 
 #BMI Calculator
-height = input("enter your height in m: ")
-weight = input("enter your weight in kg: ")
-bmi = float(weight) / pow(float(height),2)
-print(int(bmi))
+def bmi_calculator():
+    height = input("enter your height in m: ")
+    weight = input("enter your weight in kg: ")
+    bmi = float(weight) / pow(float(height),2)
+    print(int(bmi))
