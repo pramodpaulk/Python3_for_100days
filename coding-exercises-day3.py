@@ -52,3 +52,27 @@ if add_pepperoni == 'Y':
 if extra_cheese == 'Y':
     Total += 1
 print(f"Your final bill is: ${Total}.")
+
+#Love Calulator
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+
+combined_names = (name1 + name2).upper()
+
+def char_count(word):
+    count = 0
+    for i in range(len(word)):
+        count += combined_names.count(word[i])
+    return count
+
+first_digit = str(char_count('TRUE'))
+second_digit = str(char_count('LOVE'))
+score = int(first_digit + second_digit)
+
+if score < 10 or score > 90:
+    print(f"Your score is {score}, you go together like coke and mentos.")
+elif score > 40 and score < 50:
+    print(f"Your score is {score}, you are alright together.")
+else:
+    print(f"Your score is {score}.")
