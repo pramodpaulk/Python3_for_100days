@@ -32,11 +32,15 @@ value_map = {0: rock, 1: paper, 2: scissors}
 computer_choice = random.randint(0, 2)
 print(value_map[user_choice])
 print(f"Computer chose \n{value_map[computer_choice]}")
-if(user_choice == 0 and computer_choice == 2):
+if user_choice == 0 and computer_choice == 2:
     print("You win")
-elif(user_choice == 2 and computer_choice == 1):
+elif user_choice == 2 and computer_choice == 1:
     print("You win")
-elif(user_choice == 1 and computer_choice == 0):
+elif user_choice == 2 and computer_choice == 0:
+    print("You lose")
+elif user_choice == 1 and computer_choice == 0:
     print("You win")
+elif user_choice == computer_choice:
+    print("It's a Draw")
 else:
     print("You lose")
