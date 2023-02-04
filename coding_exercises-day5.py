@@ -1,3 +1,4 @@
+""" Average height of students """
 # Average height
 student_heights = input("Input a list of student heights ").split()
 for n in range(0, len(student_heights)):
@@ -10,7 +11,7 @@ for height in student_heights:
 average_height = total_height / total_count
 print(round(average_height))
 
-'''Getting the highest score of a student from the list'''
+""" Getting the highest score of a student from the list """
 # highest score
 student_scores = input("Input a list of student scores ").split()
 for n in range(0, len(student_scores)):
