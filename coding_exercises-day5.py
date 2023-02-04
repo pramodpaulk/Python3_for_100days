@@ -27,6 +27,7 @@ for number in range(2, 101, 2):
     total += number
 print(total)
 
+''' Every multiple of 3 is fizz and multiple of 5 is buzz and multiple of both is FizzBuzz '''
 # FizzBuzz
 for number in range(1, 101):
     if number % 5 == 0 and number % 3 == 0:
