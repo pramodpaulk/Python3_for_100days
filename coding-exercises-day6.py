@@ -17,6 +17,10 @@ def jump():
     move()
     turn_left()
 
-
+# for or while can be used
 for step in range(6):
+    jump()
+
+# Using while loop
+while not at_goal():
     jump()
