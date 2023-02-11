@@ -1,1 +1,1 @@
-"""Project for Day-6"""
+""" Project for Day-6 """
